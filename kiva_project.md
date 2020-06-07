@@ -1,4 +1,4 @@
-# Visualizing Loans Awarded by Kiva
+# Visualizing loans awarded by Kiva
 
 In this project I have visualized insights using a dataset from <a href = "https://www.kaggle.com/fkosmowski/kivadhsv1" target = "_blank">Kaggle</a>. The dataset contains information about loans awarded by the non-profit <a href = "https://www.kiva.org/" target = "_blank">Kiva</a>. 
 
