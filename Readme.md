@@ -336,9 +336,7 @@ sns.barplot(data=df, x="country", y="loan_amount", hue = "gender")
 Which country has the *least* disparity in loan amounts awarded by gender?
 
 
-```python
-print("El Salvador")
-```
+
 
     El Salvador
     
@@ -346,9 +344,7 @@ print("El Salvador")
 Based on the data, what kind of recommendations can you make to Kiva about the loans they give?
 
 
-```python
-print("Reduce the Disparity between male and female and offer equal loans irrespective of gender")
-```
+
 
     Reduce the Disparity between male and female and offer equal loans irrespective of gender
     
@@ -377,19 +373,7 @@ sns.barplot(data = df, x = "country", y = "loan_amount", hue = "gender")
 ```
 
 
-    ---------------------------------------------------------------------------
 
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-5-0bd408f3bacf> in <module>
-    ----> 1 sns.set_palette("Accent")
-          2 
-          3 # Set style
-          4 sns.set_style("whitegrid")
-          5 
-    
-
-    NameError: name 'sns' is not defined
 
 
 ## Step 7: Box Plots With Kiva Data
