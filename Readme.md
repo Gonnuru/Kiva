@@ -413,9 +413,6 @@ sns.boxplot(data = df, x = "country", y = "loan_amount")
 Which country's box has the widest distribution?
 
 
-```python
-print("Kenya")
-```
 
     Kenya
     
@@ -423,9 +420,6 @@ print("Kenya")
 In which country would you be most likely to receive the largest loan amount?
 
 
-```python
-print("Cambodia")
-```
 
     Cambodia
     
@@ -474,9 +468,7 @@ sns.boxplot(data = df, x = "activity", y = "loan_amount")
 What does this visualization reveal that previous ones did not?
 
 
-```python
-print("""We can see that Farming has been given priority to lend the loan amount and the boxplot has been plotted based on activity""")
-```
+
 
     We can see that Farming has been given priority to lend the loan amount and the boxplot has been plotted based on activity
     
@@ -547,10 +539,6 @@ sns.violinplot(data=df, x="country", y="loan_amount", hue = "gender", split = Tr
 What does this visualization reveal about the distribution of loan amounts within countries by gender?
 
 
-```python
-print("""We can observe that for countries like 'Pakistan' Males are provided with higher loan amount and similarily for 'Cambodia'
-whereas in El Salvador the distribution of loan_amount is even between male and female. """)
-```
 
     We can observe that for countries like 'Pakistan' Males are provided with higher loan amount and similarily for 'Cambodia'
     whereas in El Salvador the distribution of loan_amount is even between male and female. 
