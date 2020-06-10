@@ -262,19 +262,7 @@ sns.barplot(data = df,
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-3-01e681761081> in <module>
-    ----> 1 f, ax = plt.subplots(figsize=(15, 10))
-          2 
-          3 sns.barplot(data = df,
-          4             x = "country",
-          5             y = "loan_amount")
-    
-
-    NameError: name 'plt' is not defined
+ 
 
 
 ### Adding `$` units
@@ -322,19 +310,7 @@ ax.yaxis.set_major_formatter(tick)
 ```
 
 
-    ---------------------------------------------------------------------------
 
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-4-a5fb95fb3da3> in <module>
-    ----> 1 f, ax = plt.subplots(figsize=(15, 10))
-          2 
-          3 sns.barplot(data=df, x="country", y="loan_amount")
-          4 
-          5 fmt = '${x:,.0f}'
-    
-
-    NameError: name 'plt' is not defined
 
 
 #### Reflection Questions
